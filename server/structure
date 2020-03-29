@@ -1,0 +1,24 @@
+● src
++---● app
+|   +--● user
+|   |  |--user.component.ts|.html|.css
+|   |  +--● sign-up
+|   |  |  |--sign-up.component.ts|.html|.css
+|   |  +--● sign-in
+|   |  |  |--sign-in.component.ts|.html|.css
+|   +--● user-profile
+|   |  |--user-profile.component.ts|.html|.css
+|   |  
+|   |--● services
+|   |  |--user.service.ts
+|   |
+|   |--● models
+|   |  |--user.model.ts
+|   |
+|   |--app.module.ts
+|   |--app-routing.module.ts 
+|
++---● auth
+    |
+    +-- auth.gaurd.ts
+    +-- auth.interceptor.ts
